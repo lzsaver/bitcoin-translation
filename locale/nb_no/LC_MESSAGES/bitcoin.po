@@ -1,0 +1,978 @@
+msgid ""
+msgstr ""
+"Project-Id-Version: Bitcoin 0.3.20\n"
+"Report-Msgid-Bugs-To: \n"
+"POT-Creation-Date: 2011-02-23 11:31+0300\n"
+"PO-Revision-Date: 2011-02-27 17:09+0100\n"
+"Last-Translator: Carl Erik Hagelien <hagelien@gmail.com>\n"
+"Language-Team: \n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=utf-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"X-Poedit-KeywordsList: _;gettext;gettext_noop\n"
+"X-Poedit-Basepath: .\n"
+"Plural-Forms: nplurals=2; plural=(n != 1)\n"
+"X-Poedit-Language: Norwegian Bokmal\n"
+"X-Poedit-Country: NORWAY\n"
+"X-Poedit-SearchPath-0: ../../..\n"
+
+#: ../../../init.cpp:161
+#: ../../../init.cpp:232
+msgid " beta"
+msgstr " beta"
+
+#: ../../../init.cpp:163
+msgid "Bitcoin version"
+msgstr "Bitcoin-versjon"
+
+#: ../../../init.cpp:164
+msgid "Usage:"
+msgstr "Bruk:"
+
+#: ../../../init.cpp:166
+msgid "Send command to -server or bitcoind\n"
+msgstr "Send kommando til -server eller bitcoind\n"
+
+#: ../../../init.cpp:167
+msgid "List commands\n"
+msgstr "List kommandoer\n"
+
+#: ../../../init.cpp:168
+msgid "Get help for a command\n"
+msgstr "Få hjelp med en kommando\n"
+
+#: ../../../init.cpp:169
+msgid "Options:\n"
+msgstr "Alternativer:\n"
+
+#: ../../../init.cpp:170
+msgid "Specify configuration file (default: bitcoin.conf)\n"
+msgstr "Angi konfigurasjonsfil (standard: bitcoin.conf)\n"
+
+#: ../../../init.cpp:171
+msgid "Generate coins\n"
+msgstr "Generer mynter\n"
+
+#: ../../../init.cpp:172
+msgid "Don't generate coins\n"
+msgstr "Ikke generer mynter\n"
+
+#: ../../../init.cpp:173
+msgid "Start minimized\n"
+msgstr "Start minimert\n"
+
+#: ../../../init.cpp:174
+msgid "Specify data directory\n"
+msgstr "Angi datamappe\n"
+
+#: ../../../init.cpp:175
+msgid "Connect through socks4 proxy\n"
+msgstr "Koble til via socks4-mellomtjener\n"
+
+#: ../../../init.cpp:176
+msgid "Add a node to connect to\n"
+msgstr "Legg til en tilkoblingsnode\n"
+
+#: ../../../init.cpp:177
+msgid "Connect only to the specified node\n"
+msgstr "Koble til kun den spesifiserte noden\n"
+
+#: ../../../init.cpp:178
+msgid "Don't accept connections from outside"
+msgstr "Ikke tillat tilkoblinger fra utsiden"
+
+#: ../../../init.cpp:179
+msgid "Fee per KB to add to transactions you send\n"
+msgstr "Avgift per KB som skal legges til utgående transaksjoner\n"
+
+#: ../../../init.cpp:180
+msgid "Accept command line and JSON-RPC commands\n"
+msgstr "Godta kommandolinje- og JSON-RPC-kommandoer\n"
+
+#: ../../../init.cpp:181
+msgid "Run in the background as a daemon and accept commands\n"
+msgstr "Kjør som tjener i bakgrunnen og godta kommandoer\n"
+
+#: ../../../init.cpp:182
+msgid "Use the test network\n"
+msgstr "Bruk testnettverket\n"
+
+#: ../../../init.cpp:183
+msgid "Username for JSON-RPC connections\n"
+msgstr "Brukernavn for JSON-RPC-tilkoblinger\n"
+
+#: ../../../init.cpp:184
+msgid "Password for JSON-RPC connections\n"
+msgstr "Passord for JSON-RPC-tilkoblinger\n"
+
+#: ../../../init.cpp:185
+msgid "Listen for JSON-RPC connections on <port> (default: 8332)\n"
+msgstr "Lytt etter JSON-RPC-tilkoblinger på <port> (standard: 8332)\n"
+
+#: ../../../init.cpp:186
+msgid "Allow JSON-RPC connections from specified IP address\n"
+msgstr "Tillat JSON-RPC-tilkoblinger fra spesifisert IP-adresse\n"
+
+#: ../../../init.cpp:187
+msgid "Send commands to node running on <ip> (default: 127.0.0.1)\n"
+msgstr "Send kommandoer til node som kjører på <ip> (standard: 127.0.0.1)\n"
+
+#: ../../../init.cpp:188
+msgid "Set key pool size to <n> (default: 100)\n"
+msgstr "Sett størrelsen på nøkkelbeholdningen til <n> (standard: 100)\n"
+
+#: ../../../init.cpp:189
+msgid "Rescan the block chain for missing wallet transactions\n"
+msgstr "Søk i blokkjeden etter tapte lommeboktransaksjoner\n"
+
+#: ../../../init.cpp:193
+msgid ""
+"\n"
+"SSL options: (see the Bitcoin Wiki for SSL setup instructions)\n"
+msgstr ""
+"\n"
+"SSL-instillinger: (jfr. Bitcoin Wiki for hjelp til oppsett)\n"
+
+#: ../../../init.cpp:194
+msgid "Use OpenSSL (https) for JSON-RPC connections\n"
+msgstr "Bruk OpenSSL (https) for JSON-RPC-tilkoblinger\n"
+
+#: ../../../init.cpp:195
+msgid "Server certificate file (default: server.cert)\n"
+msgstr "Serversertifikat (standard: server.cert)\n"
+
+#: ../../../init.cpp:196
+msgid "Server private key (default: server.pem)\n"
+msgstr "Privatnøkkel for server (standard: server.pem)\n"
+
+#: ../../../init.cpp:197
+msgid "Acceptable ciphers (default: TLSv1+HIGH:!SSLv2:!aNULL:!eNULL:!AH:!3DES:@STRENGTH)\n"
+msgstr "Godtatte chifre (standard: TLSv1+HIGH:!SSLv2:!aNULL:!eNULL:!AH:!3DES:@STRENGTH)\n"
+
+#: ../../../init.cpp:201
+msgid "This help message\n"
+msgstr "Denne hjelpemeldingen\n"
+
+#: ../../../init.cpp:295
+#, c-format
+msgid "Cannot obtain a lock on data directory %s.  Bitcoin is probably already running."
+msgstr "Klarer ikke å låse datamappen %s.  Bitcoin er trolig allerede startet."
+
+#: ../../../init.cpp:321
+msgid "Error loading addr.dat      \n"
+msgstr "Klarte ikke laste addr.dat      \n"
+
+#: ../../../init.cpp:327
+msgid "Error loading blkindex.dat      \n"
+msgstr "Klarte ikke laste blkindex.dat      \n"
+
+#: ../../../init.cpp:334
+msgid "Error loading wallet.dat      \n"
+msgstr "Klarte ikke laste wallet.dat      \n"
+
+#: ../../../init.cpp:403
+msgid "Invalid -proxy address"
+msgstr "Ugyldig -proxy-adresse"
+
+#: ../../../init.cpp:423
+msgid "Invalid amount for -paytxfee=<amount>"
+msgstr "Ugyldig beløp for -paytxfee=<beløp>"
+
+#: ../../../init.cpp:427
+msgid "Warning: -paytxfee is set very high.  This is the transaction fee you will pay if you send a transaction."
+msgstr "Advarsel: -paytxfee er satt veldig høyt. Dette er avgiften du betaler når du utfører en transaksjon."
+
+#: ../../../main.cpp:1846
+msgid "Warning: Disk space is low  "
+msgstr "Advarsel: Liten diskplass  "
+
+#: ../../../main.cpp:4007
+#, c-format
+msgid "Error: This is an oversized transaction that requires a transaction fee of %s  "
+msgstr "Feil: Dette er en overdimensjonert transaksjon og krever en avgift på %s"
+
+#: ../../../main.cpp:4009
+msgid "Error: Transaction creation failed  "
+msgstr "Feil: Kunne ikke opprette transaksjon  "
+
+#: ../../../main.cpp:4014
+#: ../../../ui.cpp:1975
+#: ../../../ui.cpp:1980
+#: ../../../ui.cpp:2124
+#: ../../../ui.cpp:2277
+msgid "Sending..."
+msgstr "Sender..."
+
+#: ../../../main.cpp:4018
+msgid "Error: The transaction was rejected.  This might happen if some of the coins in your wallet were already spent, such as if you used a copy of wallet.dat and coins were spent in the copy but not marked as spent here."
+msgstr "Feil: Transaksjonen ble avvist.  Dette kan skje når noen av myntene i lommeboken allerede er brukt, som hvis du har brukt en kopi av wallet.dat og mynter er brukt i kopien, men ikke er registrert som brukt her."
+
+#: ../../../main.cpp:4030
+msgid "Invalid amount"
+msgstr "Ugyldig beløp"
+
+#: ../../../main.cpp:4032
+#: ../../../ui.cpp:2191
+#: ../../../ui.cpp:2262
+msgid "Insufficient funds"
+msgstr "Ikke dekning"
+
+#: ../../../main.cpp:4037
+msgid "Invalid bitcoin address"
+msgstr "Ugyldig bitcoin-adresse"
+
+#: ../../../net.cpp:1286
+#, c-format
+msgid "Unable to bind to port %d on this computer.  Bitcoin is probably already running."
+msgstr "Klarer ikke å binde til port %d på denne maskinen. Bitcoin er trolig startet fra før."
+
+#: ../../../rpc.cpp:1694
+#: ../../../rpc.cpp:1696
+#, c-format
+msgid "To use the %s option"
+msgstr "For å bruke %s-alternativet"
+
+#: ../../../rpc.cpp:1698
+#, c-format
+msgid ""
+"Warning: %s, you must set rpcpassword=<password>\n"
+"in the configuration file: %s\n"
+"If the file does not exist, create it with owner-readable-only file permissions.\n"
+msgstr ""
+"Advarsel: %s, du må sette rpcpassword=<passord>\n"
+"i konfigurasjonsfilen: %s\n"
+"Dersom filen ikke eksisterer, opprett den med utelukkende eier-lesbarhet.\n"
+
+#: ../../../rpc.cpp:1864
+#, c-format
+msgid ""
+"You must set rpcpassword=<password> in the configuration file:\n"
+"%s\n"
+"If the file does not exist, create it with owner-readable-only file permissions."
+msgstr ""
+"Du må sette rpcpassword=<passord> i konfigurasjonsfilen:\n"
+"%s\n"
+"Dersom filen ikke eksisterer, opprett den med utelukkende eier-lesbarhet.\n"
+
+#: ../../../ui.cpp:202
+#, c-format
+msgid "This transaction is over the size limit.  You can still send it for a fee of %s, which goes to the nodes that process your transaction and helps to support the network.  Do you want to pay the fee?"
+msgstr "Denne transaksjonen overstiger dimensjonsgrensen.  Du kan fortsatt sende den mot en avgift på %s. Avgiften godskrives nodene som prosesserer din transaksjon og hjelper til å støtte nettverket.  Ønsker du å betale avgiften?"
+
+#: ../../../ui.cpp:301
+msgid "Status"
+msgstr "Status"
+
+#: ../../../ui.cpp:302
+msgid "Date"
+msgstr "Dato"
+
+#: ../../../ui.cpp:303
+msgid "Description"
+msgstr "Beskrivelse"
+
+#: ../../../ui.cpp:304
+msgid "Debit"
+msgstr "Belastning"
+
+#: ../../../ui.cpp:305
+msgid "Credit"
+msgstr "Kreditt"
+
+#: ../../../ui.cpp:511
+#, c-format
+msgid "Open for %d blocks"
+msgstr "Åpen for %d blokker"
+
+#: ../../../ui.cpp:513
+#, c-format
+msgid "Open until %s"
+msgstr "Åpen til %s"
+
+#: ../../../ui.cpp:519
+#, c-format
+msgid "%d/offline?"
+msgstr "%d/avlogget?"
+
+#: ../../../ui.cpp:521
+#, c-format
+msgid "%d/unconfirmed"
+msgstr "%d/ubekreftet"
+
+#: ../../../ui.cpp:523
+#, c-format
+msgid "%d confirmations"
+msgstr "%d bekreftelser"
+
+#: ../../../ui.cpp:608
+msgid "Generated"
+msgstr "Generert"
+
+#: ../../../ui.cpp:616
+#, c-format
+msgid "Generated (%s matures in %d more blocks)"
+msgstr "Generert (%s modnes om %d blokker)"
+
+#: ../../../ui.cpp:620
+msgid "Generated - Warning: This block was not received by any other nodes and will probably not be accepted!"
+msgstr "Generert - Advarsel: Denne blokken ble ikke mottatt av noen andre noder og vil sannsynligvis ikke bli godtatt!"
+
+#: ../../../ui.cpp:624
+msgid "Generated (not accepted)"
+msgstr "Generert (ikke godtatt)"
+
+#: ../../../ui.cpp:634
+msgid "From: "
+msgstr "Fra: "
+
+#: ../../../ui.cpp:658
+msgid "Received with: "
+msgstr "Mottatt med: "
+
+#: ../../../ui.cpp:704
+msgid "Payment to yourself"
+msgstr "Betaling til deg selv"
+
+#: ../../../ui.cpp:738
+msgid "To: "
+msgstr "Til: "
+
+#: ../../../ui.cpp:1053
+msgid "    Generating"
+msgstr "    Genererer"
+
+#: ../../../ui.cpp:1055
+msgid "(not connected)"
+msgstr "(ikke tilkoblet)"
+
+#: ../../../ui.cpp:1058
+#, c-format
+msgid "     %d connections     %d blocks     %d transactions"
+msgstr "     %d tilkoblinger     %d blokker     %d transaksjoner"
+
+#: ../../../ui.cpp:1169
+#: ../../../ui.cpp:2577
+msgid "New Receiving Address"
+msgstr "Ny mottaksadresse"
+
+#: ../../../ui.cpp:1170
+#: ../../../ui.cpp:2578
+msgid ""
+"You should use a new address for each payment you receive.\n"
+"\n"
+"Label"
+msgstr ""
+"Du bør bruke en ny adresse for hver betaling du mottar.\n"
+"\n"
+"Etikett"
+
+#: ../../../ui.cpp:1239
+msgid "<b>Status:</b> "
+msgstr "<b>Status:</b> "
+
+#: ../../../ui.cpp:1244
+msgid ", has not been successfully broadcast yet"
+msgstr ", har ikke blitt kringkastet ennå"
+
+#: ../../../ui.cpp:1246
+#, c-format
+msgid ", broadcast through %d node"
+msgstr ", kringkastet gjennom %d node"
+
+#: ../../../ui.cpp:1248
+#, c-format
+msgid ", broadcast through %d nodes"
+msgstr ", kringkastet gjennom %d noder"
+
+#: ../../../ui.cpp:1252
+msgid "<b>Date:</b> "
+msgstr "<b>Dato:</b> "
+
+#: ../../../ui.cpp:1260
+msgid "<b>Source:</b> Generated<br>"
+msgstr "<b>Kilde:</b> Generert<br>"
+
+#: ../../../ui.cpp:1266
+#: ../../../ui.cpp:1284
+msgid "<b>From:</b> "
+msgstr "<b>Fra:</b> "
+
+#: ../../../ui.cpp:1284
+msgid "unknown"
+msgstr "ukjent"
+
+#: ../../../ui.cpp:1285
+#: ../../../ui.cpp:1309
+#: ../../../ui.cpp:1368
+msgid "<b>To:</b> "
+msgstr "<b>Til:</b> "
+
+# not exactly sure in what context this is used
+#: ../../../ui.cpp:1288
+#, fuzzy
+msgid " (yours, label: "
+msgstr " (egen, etikett: "
+
+#: ../../../ui.cpp:1290
+msgid " (yours)"
+msgstr " (egen)"
+
+#: ../../../ui.cpp:1327
+#: ../../../ui.cpp:1339
+#: ../../../ui.cpp:1385
+#: ../../../ui.cpp:1402
+msgid "<b>Credit:</b> "
+msgstr "<b>Kreditt:</b> "
+
+#: ../../../ui.cpp:1329
+#, c-format
+msgid "(%s matures in %d more blocks)"
+msgstr "(%s modnes om %d blokker)"
+
+#: ../../../ui.cpp:1331
+msgid "(not accepted)"
+msgstr "(ikke godtatt)"
+
+#: ../../../ui.cpp:1376
+#: ../../../ui.cpp:1384
+#: ../../../ui.cpp:1399
+msgid "<b>Debit:</b> "
+msgstr "<b>Belastet:</b> "
+
+#: ../../../ui.cpp:1390
+msgid "<b>Transaction fee:</b> "
+msgstr "<b>Transaksjonsavgift:</b> "
+
+#: ../../../ui.cpp:1406
+msgid "<b>Net amount:</b> "
+msgstr "<b>Netto beløp:</b> "
+
+#: ../../../ui.cpp:1413
+msgid "Message:"
+msgstr "Melding:"
+
+#: ../../../ui.cpp:1415
+msgid "Comment:"
+msgstr "Kommentar:"
+
+#: ../../../ui.cpp:1418
+msgid "Generated coins must wait 120 blocks before they can be spent.  When you generated this block, it was broadcast to the network to be added to the block chain.  If it fails to get into the chain, it will change to \"not accepted\" and not be spendable.  This may occasionally happen if another node generates a block within a few seconds of yours."
+msgstr "Genererte mynter må vente 120 blokker før de kan benyttes.  Da du genererte denne blokken ble det kringkastet til nettverket så den kan legges til blokkjeden.  Dersom den mislykkes å bli lagt til kjeden vil blokken endres til \"ikke godtatt\" og kan ikke benyttes.  Dette kan forekomme noen ganger dersom en annen node genererer en blokk omtrent samtidig som din (innen få sekunder)."
+
+#: ../../../ui.cpp:1598
+msgid "Cannot write autostart/bitcoin.desktop file"
+msgstr "Kan ikke skrive til autostart/bitcoin.desktop"
+
+#: ../../../ui.cpp:1634
+msgid "Main"
+msgstr "Hoved"
+
+#: ../../../ui.cpp:1642
+msgid "&Start Bitcoin on window system startup"
+msgstr "&Start Bitcoin når vindusbehandler starter"
+
+#: ../../../ui.cpp:1649
+msgid "&Minimize on close"
+msgstr "&Minimer når programmet lukkes"
+
+#: ../../../ui.cpp:1806
+#, c-format
+msgid "version %s%s BETA"
+msgstr "versjon %s%s beta"
+
+#: ../../../ui.cpp:1892
+msgid "n/a"
+msgstr "ikke tilgjengelig"
+
+#: ../../../ui.cpp:1893
+msgid "Can't include a message when sending to a Bitcoin address"
+msgstr "Kan ikke inkludere melding når det sendes til en Bitcoin-adresse"
+
+#: ../../../ui.cpp:1949
+msgid "Error in amount  "
+msgstr "Feil i beløp  "
+
+#: ../../../ui.cpp:1949
+#: ../../../ui.cpp:1954
+#: ../../../ui.cpp:1959
+#: ../../../ui.cpp:1990
+#: ../../../uibase.cpp:59
+msgid "Send Coins"
+msgstr "Send mynter"
+
+#: ../../../ui.cpp:1954
+msgid "Amount exceeds your balance  "
+msgstr "Beløpet overstiger din beholdning   "
+
+#: ../../../ui.cpp:1959
+msgid "Total exceeds your balance when the "
+msgstr "Totalbeløp overstiger din beholdning når "
+
+#: ../../../ui.cpp:1959
+msgid " transaction fee is included  "
+msgstr " transaksjonsavgift medregnes  "
+
+#: ../../../ui.cpp:1975
+msgid "Payment sent  "
+msgstr "Betaling sendt  "
+
+#: ../../../ui.cpp:1990
+msgid "Invalid address  "
+msgstr "Ugyldig adresse  "
+
+#: ../../../ui.cpp:2045
+#, c-format
+msgid "Sending %s to %s"
+msgstr "Sender %s til %s"
+
+#: ../../../ui.cpp:2118
+#: ../../../ui.cpp:2151
+msgid "CANCELLED"
+msgstr "ANNULLERT"
+
+#: ../../../ui.cpp:2122
+msgid "Cancelled"
+msgstr "Annullert"
+
+#: ../../../ui.cpp:2124
+msgid "Transfer cancelled  "
+msgstr "Overføring annullert  "
+
+#: ../../../ui.cpp:2177
+msgid "Error: "
+msgstr "Feil: "
+
+#: ../../../ui.cpp:2196
+msgid "Connecting..."
+msgstr "Kobler til..."
+
+#: ../../../ui.cpp:2201
+msgid "Unable to connect"
+msgstr "Kunne ikke koble til"
+
+#: ../../../ui.cpp:2206
+msgid "Requesting public key..."
+msgstr "Anmoder offentlig nøkkel..."
+
+#: ../../../ui.cpp:2218
+msgid "Received public key..."
+msgstr "Offentlig nøkkel mottatt..."
+
+#: ../../../ui.cpp:2232
+msgid "Recipient is not accepting transactions sent by IP address"
+msgstr "Mottaker godtar ikke transaksjoner sendt per IP-adresse"
+
+#: ../../../ui.cpp:2234
+msgid "Transfer was not accepted"
+msgstr "Overføring ble ikke godtatt"
+
+#: ../../../ui.cpp:2243
+msgid "Invalid response received"
+msgstr "Ugyldig respons mottatt"
+
+#: ../../../ui.cpp:2258
+msgid "Creating transaction..."
+msgstr "Oppretter transaksjon..."
+
+#: ../../../ui.cpp:2270
+#, c-format
+msgid "This is an oversized transaction that requires a transaction fee of %s"
+msgstr "Dette er en overdimensjonert transaksjon som krever %s i avgift"
+
+#: ../../../ui.cpp:2272
+msgid "Transaction creation failed"
+msgstr "Opprettelse av transaksjon mislyktes"
+
+#: ../../../ui.cpp:2279
+msgid "Transaction aborted"
+msgstr "Transaksjon avbrutt"
+
+#: ../../../ui.cpp:2287
+msgid "Lost connection, transaction cancelled"
+msgstr "Mistet forbindelse, transaksjon annullert"
+
+#: ../../../ui.cpp:2303
+msgid "Sending payment..."
+msgstr "Sender betaling..."
+
+#: ../../../ui.cpp:2309
+msgid "The transaction was rejected.  This might happen if some of the coins in your wallet were already spent, such as if you used a copy of wallet.dat and coins were spent in the copy but not marked as spent here."
+msgstr "Transaksjonen ble avvist.  Dette kan skje når noen av myntene i lommeboken allerede har blitt benyttet, som hvis du har brukt en kopi av wallet.dat og mynter er brukt i kopien, men ikke er registrert som brukt her."
+
+#: ../../../ui.cpp:2318
+msgid "Waiting for confirmation..."
+msgstr "Venter på bekreftelse..."
+
+#: ../../../ui.cpp:2336
+msgid ""
+"The payment was sent, but the recipient was unable to verify it.\n"
+"The transaction is recorded and will credit to the recipient,\n"
+"but the comment information will be blank."
+msgstr ""
+"Betalingen er sendt, men mottakeren kunne ikke verifisere den.\n"
+"Transaksjonen er registrert og vil krediteres mottakeren,\n"
+"men kommentarfeltet vil stå blankt."
+
+#: ../../../ui.cpp:2345
+msgid "Payment was sent, but an invalid response was received"
+msgstr "Betalingen ble sendt, men en ugyldig respons er mottatt"
+
+#: ../../../ui.cpp:2351
+msgid "Payment completed"
+msgstr "Betaling utført"
+
+#: ../../../ui.cpp:2382
+#: ../../../ui.cpp:2528
+#: ../../../ui.cpp:2565
+msgid "Name"
+msgstr "Navn"
+
+#: ../../../ui.cpp:2383
+#: ../../../ui.cpp:2528
+#: ../../../ui.cpp:2565
+msgid "Address"
+msgstr "Adresse"
+
+#: ../../../ui.cpp:2385
+#: ../../../ui.cpp:2540
+msgid "Label"
+msgstr "Etikett"
+
+#: ../../../ui.cpp:2386
+#: ../../../uibase.cpp:898
+msgid "Bitcoin Address"
+msgstr "Bitcoin-adresse"
+
+#: ../../../ui.cpp:2510
+msgid "This is one of your own addresses for receiving payments and cannot be entered in the address book.  "
+msgstr "Dette er en av dine egne adresser for mottak av betalinger og kan derfor ikke legges til adresseboken.  "
+
+#: ../../../ui.cpp:2528
+#: ../../../ui.cpp:2534
+msgid "Edit Address"
+msgstr "Rediger adresse"
+
+#: ../../../ui.cpp:2540
+msgid "Edit Address Label"
+msgstr "Rediger adresseetikett"
+
+#: ../../../ui.cpp:2565
+#: ../../../ui.cpp:2571
+msgid "Add Address"
+msgstr "Legg til adresse"
+
+#: ../../../ui.cpp:2647
+msgid "Bitcoin"
+msgstr "Bitcoin"
+
+#: ../../../ui.cpp:2649
+msgid "Bitcoin - Generating"
+msgstr "Bitcoin - Genererer"
+
+#: ../../../ui.cpp:2651
+msgid "Bitcoin - (not connected)"
+msgstr "Bitcoin - (ikke tilkoblet)"
+
+#: ../../../ui.cpp:2728
+msgid "&Open Bitcoin"
+msgstr "Å&pne Bitcoin"
+
+#: ../../../ui.cpp:2729
+msgid "O&ptions..."
+msgstr "Al&ternativer..."
+
+#: ../../../ui.cpp:2730
+#: ../../../uibase.cpp:32
+msgid "&Generate Coins"
+msgstr "&Generer mynter"
+
+#: ../../../ui.cpp:2733
+#: ../../../uibase.cpp:25
+msgid "E&xit"
+msgstr "&Avslutt"
+
+#: ../../../ui.cpp:2948
+msgid "Program has crashed and will terminate.  "
+msgstr "Programmet har krasjet og vil avslutte.  "
+
+#: ../../../uibase.cpp:28
+msgid "&File"
+msgstr "&Fil"
+
+#: ../../../uibase.cpp:36
+msgid "&Your Receiving Addresses..."
+msgstr "Din &mottaksadresse..."
+
+#: ../../../uibase.cpp:40
+msgid "&Options..."
+msgstr "Al&ternativer..."
+
+#: ../../../uibase.cpp:43
+msgid "&Settings"
+msgstr "&Instillinger"
+
+#: ../../../uibase.cpp:47
+msgid "&About..."
+msgstr "%Om..."
+
+#: ../../../uibase.cpp:50
+msgid "&Help"
+msgstr "&Hjelp"
+
+#: ../../../uibase.cpp:60
+msgid "Address Book"
+msgstr "Adressebok"
+
+#: ../../../uibase.cpp:74
+msgid "Your Bitcoin Address:"
+msgstr "Din Bitcoin-adresse:"
+
+#: ../../../uibase.cpp:81
+msgid " &New... "
+msgstr " &Ny... "
+
+#: ../../../uibase.cpp:84
+#: ../../../uibase.cpp:841
+#: ../../../uibase.cpp:944
+msgid " &Copy to Clipboard "
+msgstr " &Kopier til utklippstavle "
+
+#: ../../../uibase.cpp:98
+msgid "Balance:"
+msgstr "Balanse:"
+
+#: ../../../uibase.cpp:114
+msgid " All"
+msgstr " Alle"
+
+#: ../../../uibase.cpp:114
+msgid " Sent"
+msgstr " Sendt"
+
+#: ../../../uibase.cpp:114
+msgid " Received"
+msgstr " Mottatt"
+
+#: ../../../uibase.cpp:114
+msgid " In Progress"
+msgstr " Pågår"
+
+#: ../../../uibase.cpp:135
+msgid "All Transactions"
+msgstr "Alle transaksjoner"
+
+#: ../../../uibase.cpp:146
+msgid "Sent/Received"
+msgstr "Sendt/Mottatt"
+
+#: ../../../uibase.cpp:157
+msgid "Sent"
+msgstr "Sendt"
+
+#: ../../../uibase.cpp:168
+msgid "Received"
+msgstr "Mottatt"
+
+#: ../../../uibase.cpp:311
+#: ../../../uibase.cpp:469
+#: ../../../uibase.cpp:570
+#: ../../../uibase.cpp:783
+#: ../../../uibase.cpp:844
+#: ../../../uibase.cpp:953
+#: ../../../uibase.cpp:1042
+msgid "OK"
+msgstr "OK"
+
+#: ../../../uibase.cpp:357
+msgid "&Limit coin generation to"
+msgstr "&Begrens myntgenerering til"
+
+#: ../../../uibase.cpp:364
+msgid "processors"
+msgstr "prosessorer"
+
+#: ../../../uibase.cpp:370
+msgid "&Start Bitcoin on system startup"
+msgstr "&Kjør Bitcoin ved oppstart av systemet"
+
+#: ../../../uibase.cpp:374
+msgid "&Minimize to the tray instead of the taskbar"
+msgstr "&Minimer til systemstatusfeltet istedenfor oppgavelinjen"
+
+#: ../../../uibase.cpp:378
+msgid "M&inimize to the tray on close"
+msgstr "M&inimer til systemstatusfeltet ved lukking"
+
+#: ../../../uibase.cpp:385
+msgid "&Connect through socks4 proxy: "
+msgstr "&Koble til via Socks4-mellomtjener: "
+
+#: ../../../uibase.cpp:397
+msgid "Proxy &IP:"
+msgstr "Mellomtjener &IP:"
+
+#: ../../../uibase.cpp:405
+msgid " &Port:"
+msgstr " &Port:"
+
+#: ../../../uibase.cpp:418
+msgid "Optional transaction fee per KB that helps make sure your transactions are processed quickly.  Most transactions are 1KB.  Fee 0.01 recommended."
+msgstr "Frivillig transaksjonsavgift per KB som hjelper med å forsikre at dine transaksjoner prosesseres raskt.  De fleste transaksjoner er på 1KB.  En avgift på 0.01 er anbefalt."
+
+#: ../../../uibase.cpp:425
+msgid "Pay transaction fee:"
+msgstr "Betal transaksjonsavgift:"
+
+#: ../../../uibase.cpp:446
+msgid "// [don't translate] Test panel 2 for future expansion"
+msgstr ""
+
+#: ../../../uibase.cpp:450
+msgid "// [don't translate] Let's not start multiple pages until the first page is filled up"
+msgstr ""
+
+#: ../../../uibase.cpp:472
+#: ../../../uibase.cpp:725
+#: ../../../uibase.cpp:788
+#: ../../../uibase.cpp:847
+#: ../../../uibase.cpp:956
+#: ../../../uibase.cpp:1045
+msgid "Cancel"
+msgstr "Avbryt"
+
+#: ../../../uibase.cpp:475
+msgid "&Apply"
+msgstr "&Bruk"
+
+#: ../../../uibase.cpp:536
+msgid "Bitcoin "
+msgstr "Bitcoin "
+
+#: ../../../uibase.cpp:542
+msgid "version"
+msgstr "versjon"
+
+#: ../../../uibase.cpp:553
+msgid ""
+"Copyright (c) 2009-2010 Bitcoin Developers\n"
+"\n"
+"This is experimental software.\n"
+"\n"
+"Distributed under the MIT/X11 software license, see the accompanying file \n"
+"license.txt or http://www.opensource.org/licenses/mit-license.php.\n"
+"\n"
+"This product includes software developed by the OpenSSL Project for use in the \n"
+"OpenSSL Toolkit (http://www.openssl.org/) and cryptographic software written by \n"
+"Eric Young (eay@cryptsoft.com)."
+msgstr ""
+"Copyright (c) 2009-2010 Bitcoin Developers\n"
+"\n"
+"Dette er eksperimentell programvare.\n"
+"\n"
+"Distribuert under MIT/X11-programvarelisensen, se medfølgende fil \n"
+"license.txt eller http://www.opensource.org/licenses/mit-license.php.\n"
+"\n"
+"Dette produktet inkluderer programvare utviklet av OpenSSL Project for bruk i \n"
+"OpenSSL Toolkit (http://www.openssl.org/) og kryptografisk programvare skrevet av \n"
+"Eric Young (eay@cryptsoft.com)."
+
+#: ../../../uibase.cpp:609
+msgid "Enter a Bitcoin address (e.g. 1NS17iag9jJgTHD1VXjvLCEnZuQ3rJED9L) or IP address (e.g. 123.45.6.7)"
+msgstr "Oppgi en Bitcoin-adresse (f.eks. 1NS17iag9jJgTHD1VXjvLCEnZuQ3rJED9L) eller IP-adresse (f.eks. 123.45.6.7)"
+
+#: ../../../uibase.cpp:623
+msgid "Pay &To:"
+msgstr "Betal &til:"
+
+#: ../../../uibase.cpp:638
+msgid "&Paste"
+msgstr "&Lim inn"
+
+#: ../../../uibase.cpp:641
+msgid " Address &Book..."
+msgstr " Adre&ssebok..."
+
+#: ../../../uibase.cpp:648
+msgid "&Amount:"
+msgstr "&Beløp:"
+
+#: ../../../uibase.cpp:658
+msgid "T&ransfer:"
+msgstr "Over&før:"
+
+#: ../../../uibase.cpp:664
+msgid " Standard"
+msgstr " Standard"
+
+#: ../../../uibase.cpp:686
+msgid "&From:"
+msgstr "&Fra:"
+
+#: ../../../uibase.cpp:703
+msgid "&Message:"
+msgstr "&Melding:"
+
+#: ../../../uibase.cpp:720
+msgid "&Send"
+msgstr "&Send"
+
+#: ../../../uibase.cpp:772
+msgid ""
+"\n"
+"\n"
+"Connecting..."
+msgstr ""
+"\n"
+"\n"
+"Kobler til..."
+
+#: ../../../uibase.cpp:822
+msgid "These are your Bitcoin addresses for receiving payments.  You may want to give a different one to each sender so you can keep track of who is paying you.  The highlighted address is displayed in the main window."
+msgstr "Dette er dine Bitcoin-adresser for å motta betalinger.  Det kan være lurt å gi hver avsender en egen adresse slik at du kan holde oversikt over hvem som betaler deg.  Den markerte adressen vil vises i hovedvinduet."
+
+#: ../../../uibase.cpp:835
+#: ../../../uibase.cpp:947
+msgid "&Edit..."
+msgstr "&Rediger..."
+
+#: ../../../uibase.cpp:838
+#: ../../../uibase.cpp:950
+msgid " &New Address... "
+msgstr " &Ny adresse... "
+
+#: ../../../uibase.cpp:910
+msgid "Sending"
+msgstr "Sender"
+
+#: ../../../uibase.cpp:918
+msgid "These are your Bitcoin addresses for receiving payments.  You can give a different one to each sender to keep track of who is paying you.  The highlighted address will be displayed in the main window."
+msgstr "Dette er dine Bitcoin-adresser for å motta betalinger.  Du kan gi hver avsender en egen adresse slik at du kan holde oversikt over hvem som betaler deg.  Den markerte adressen vil vises i hovedvinduet."
+
+#: ../../../uibase.cpp:931
+msgid "Receiving"
+msgstr "Motta"
+
+#: ../../../uibase.cpp:941
+msgid "&Delete"
+msgstr "&Slett"
+
+#: ../../../util.cpp:826
+msgid "Warning: Please check that your computer's date and time are correct.  If your clock is wrong Bitcoin will not work properly."
+msgstr "Advarsel: Vennligst kontroller at tid- og datoinstillingene på datamaskinen er korrekte. Bitcoin vil ikke fungere ordentlig dersom klokken er feil."
+
+#: ../../../uibase.h:149
+msgid "Transaction Details"
+msgstr "Transaksjonsdetaljer"
+
+#: ../../../uibase.h:203
+msgid "Options"
+msgstr "Alternativer"
+
+#: ../../../uibase.h:231
+msgid "About Bitcoin"
+msgstr "Om Bitcoin"
+
+#: ../../../uibase.h:341
+msgid "Your Bitcoin Addresses"
+msgstr "Dine Bitcoin-adresser"
+
