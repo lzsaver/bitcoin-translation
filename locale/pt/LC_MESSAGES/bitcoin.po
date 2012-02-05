@@ -34,7 +34,7 @@ msgstr ""
 
 #: ../../../init.cpp:167
 msgid "List commands\n"
-msgstr ""
+msgstr "Listar comandos"
 
 #: ../../../init.cpp:168
 msgid "Get help for a command\n"
@@ -70,7 +70,7 @@ msgstr "Ligar através de um proxy socks4\n"
 
 #: ../../../init.cpp:176
 msgid "Add a node to connect to\n"
-msgstr "Adicionar um nó para efectuar ligação\n"
+msgstr "Adicionar um nó para efetuar ligação\n"
 
 #: ../../../init.cpp:177
 msgid "Connect only to the specified node\n"
@@ -82,7 +82,7 @@ msgstr ""
 
 #: ../../../init.cpp:179
 msgid "Fee per KB to add to transactions you send\n"
-msgstr ""
+msgstr "Taxa por KB para transações enviadas"
 
 #: ../../../init.cpp:180
 msgid "Accept command line and JSON-RPC commands\n"
@@ -98,11 +98,11 @@ msgstr ""
 
 #: ../../../init.cpp:183
 msgid "Username for JSON-RPC connections\n"
-msgstr ""
+msgstr "Usuário para conexões JSON-RPC\n"
 
 #: ../../../init.cpp:184
 msgid "Password for JSON-RPC connections\n"
-msgstr ""
+msgstr "Senha para conexões JSON-RPC\n"
 
 #: ../../../init.cpp:185
 msgid "Listen for JSON-RPC connections on <port> (default: 8332)\n"
@@ -110,7 +110,7 @@ msgstr ""
 
 #: ../../../init.cpp:186
 msgid "Allow JSON-RPC connections from specified IP address\n"
-msgstr ""
+msgstr "Permitir conexoes JSON-RPC de endereço IP especificado\n"
 
 #: ../../../init.cpp:187
 msgid "Send commands to node running on <ip> (default: 127.0.0.1)\n"
@@ -248,7 +248,7 @@ msgstr ""
 #: ../../../ui.cpp:202
 #, c-format
 msgid "This transaction is over the size limit.  You can still send it for a fee of %s, which goes to the nodes that process your transaction and helps to support the network.  Do you want to pay the fee?"
-msgstr "Esta transacção ultrapassa o limite. Pode, mesmo assim, efectuá-la, no entanto, uma percentagem de %s será enviada para os nós da rede que processam este pagamento. Quer pagar a percentagem?"
+msgstr "Esta transacção ultrapassa o limite. Pode, mesmo assim, efetuá-la, no entanto, uma percentagem de %s será enviada para os nós da rede que processam este pagamento. Quer pagar a percentagem?"
 
 #: ../../../ui.cpp:301
 msgid "Status"
@@ -306,11 +306,11 @@ msgstr "Gerado (%s maduras em mais %d blocos)"
 
 #: ../../../ui.cpp:620
 msgid "Generated - Warning: This block was not received by any other nodes and will probably not be accepted!"
-msgstr "Gerado - Aviso: Este bloco não foi recebido por mais nenhum nó da rede e provavelmente não será aceite."
+msgstr "Gerado - Aviso: Este bloco não foi recebido por mais nenhum nó da rede e provavelmente não será aceito."
 
 #: ../../../ui.cpp:624
 msgid "Generated (not accepted)"
-msgstr "Gerado (não aceite)"
+msgstr "Gerado (não aceito)"
 
 #: ../../../ui.cpp:634
 msgid "From: "
@@ -458,11 +458,11 @@ msgstr "Principal"
 
 #: ../../../ui.cpp:1642
 msgid "&Start Bitcoin on window system startup"
-msgstr "&Iniciar o Bitcoin no arranque do sistema"
+msgstr "Iniciar o Bitcoin no ao iniciar o sistema"
 
 #: ../../../ui.cpp:1649
 msgid "&Minimize on close"
-msgstr "&Minimizar ao fechar"
+msgstr "Minimizar ao fechar"
 
 #: ../../../ui.cpp:1806
 #, c-format
@@ -499,7 +499,7 @@ msgstr "O total excede o seu saldo quando a "
 
 #: ../../../ui.cpp:1959
 msgid " transaction fee is included  "
-msgstr " taxa de transacção for incluída  "
+msgstr " taxa de transacção incluída  "
 
 #: ../../../ui.cpp:1975
 msgid "Payment sent  "
@@ -533,11 +533,11 @@ msgstr "Erro: "
 
 #: ../../../ui.cpp:2196
 msgid "Connecting..."
-msgstr "A estabelecer ligação ..."
+msgstr "A estabelecer conexão ..."
 
 #: ../../../ui.cpp:2201
 msgid "Unable to connect"
-msgstr "Impossível estabelecer ligação"
+msgstr "Impossível estabelecer conexão"
 
 #: ../../../ui.cpp:2206
 msgid "Requesting public key..."
@@ -553,7 +553,7 @@ msgstr ""
 
 #: ../../../ui.cpp:2234
 msgid "Transfer was not accepted"
-msgstr "A transferência não foi aceite"
+msgstr "A transferência não foi aceita"
 
 #: ../../../ui.cpp:2243
 msgid "Invalid response received"
@@ -578,7 +578,7 @@ msgstr "Transacção cancelada"
 
 #: ../../../ui.cpp:2287
 msgid "Lost connection, transaction cancelled"
-msgstr "Perca de ligação, transacção cancelada"
+msgstr "Perca de conexão, transacção cancelada"
 
 #: ../../../ui.cpp:2303
 msgid "Sending payment..."
@@ -677,24 +677,24 @@ msgstr "&Gerar Moedas"
 
 #: ../../../ui.cpp:2733
 #: ../../../uibase.cpp:25
-msgid "E&xit"
-msgstr "S&air"
+msgid "Exit"
+msgstr "Sair"
 
 #: ../../../ui.cpp:2948
 msgid "Program has crashed and will terminate.  "
-msgstr "A aplicação bloqueou e vai terminar.  "
+msgstr "A aplicação falhou e vai fechar.  "
 
 #: ../../../uibase.cpp:28
 msgid "&File"
-msgstr "&Ficheiro"
+msgstr "Arquivo"
 
 #: ../../../uibase.cpp:36
 msgid "&Your Receiving Addresses..."
-msgstr "&Os seus endereços"
+msgstr "Os seus endereços"
 
 #: ../../../uibase.cpp:40
 msgid "&Options..."
-msgstr "&Opções ..."
+msgstr "Opções ..."
 
 #: ../../../uibase.cpp:43
 msgid "&Settings"
@@ -724,7 +724,7 @@ msgstr " &Novo ... "
 #: ../../../uibase.cpp:841
 #: ../../../uibase.cpp:944
 msgid " &Copy to Clipboard "
-msgstr " &Copiar para o Clipboard "
+msgstr " &Copiar para o Área de transferência "
 
 #: ../../../uibase.cpp:98
 msgid "Balance:"
@@ -782,7 +782,7 @@ msgstr "processadores"
 
 #: ../../../uibase.cpp:370
 msgid "&Start Bitcoin on system startup"
-msgstr "&Iniciar o Bitcoin no arranque do sistema"
+msgstr "&Iniciar o Bitcoin no início do sistema"
 
 #: ../../../uibase.cpp:374
 msgid "&Minimize to the tray instead of the taskbar"
@@ -790,7 +790,7 @@ msgstr "&Minimizar para a zona do relógio em vez da barra de janelas"
 
 #: ../../../uibase.cpp:378
 msgid "M&inimize to the tray on close"
-msgstr "M&inimizar para a zona do relógio ao fechar"
+msgstr "Minimizar para a zona do relógio ao fechar"
 
 #: ../../../uibase.cpp:385
 msgid "&Connect through socks4 proxy: "
@@ -887,11 +887,11 @@ msgstr "&Quantia:"
 
 #: ../../../uibase.cpp:658
 msgid "T&ransfer:"
-msgstr "T&ransferência:"
+msgstr "Transferência:"
 
 #: ../../../uibase.cpp:664
 msgid " Standard"
-msgstr " Standard"
+msgstr " Normal"
 
 #: ../../../uibase.cpp:686
 msgid "&From:"
@@ -913,7 +913,7 @@ msgid ""
 msgstr ""
 "\n"
 "\n"
-"A estabelecer ligação ..."
+"Conectando ..."
 
 #: ../../../uibase.cpp:822
 msgid "These are your Bitcoin addresses for receiving payments.  You may want to give a different one to each sender so you can keep track of who is paying you.  The highlighted address is displayed in the main window."
